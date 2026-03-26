@@ -7,9 +7,9 @@
     <AssemblyCompany>Landis-II-Foundation</AssemblyCompany>
     <AssemblyProduct>Landis.Extension.Output.BiomassCommunity-v3</AssemblyProduct>
     <AssemblyCopyright>Landis-II-Foundation</AssemblyCopyright>
-    <AssemblyVersion>3.0.1</AssemblyVersion>
-    <Version>3.0.1</Version>
-    <FileVersion>3.0.1</FileVersion>
+    <AssemblyVersion>3.1</AssemblyVersion>
+    <Version>3.1</Version>
+    <FileVersion>3.1</FileVersion>
     <TargetFramework>netstandard2.0</TargetFramework>
     <RepositoryUrl>https://github.com/LANDIS-II-Foundation/Extension-Output-Biomass-Community</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
@@ -29,11 +29,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="Landis.Library.UniversalCohorts-v1">
-      <HintPath>lib\Landis.Library.UniversalCohorts-v1.dll</HintPath>
-    </Reference>
     <Reference Include="Landis.Library.Metadata-v2">
       <HintPath>lib\Landis.Library.Metadata-v2.dll</HintPath>
+    </Reference>
+    <Reference Include="Landis.Library.UniversalCohorts-v2">
+      <HintPath>..\..\..\..\Documents\GitHub\Extension-NECN-Succession\src\lib\Landis.Library.UniversalCohorts-v2.dll</HintPath>
     </Reference>
   </ItemGroup>
 
